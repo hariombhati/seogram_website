@@ -1,0 +1,194 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* navigation section  */
+.right {
+  margin-left: auto;
+}
+
+
+/* navigation color button  */
+.bgc {
+  background-color: #eceaf8;
+  border-radius: 10px;
+}
+
+/* mian section of website  */
+.btn_corner {
+  border-radius: 10px 10px 10px 10px;
+
+  border: 0px solid #000000;
+}
+
+/* market section of the website  */
+.box_shadow {
+  -webkit-box-shadow: 0px 0px 14px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px -2px rgba(0, 0, 0, 0.75);
+}
+
+/* price plain section  */
+
+.text-color {
+  color: #6c55f9;
+}
+
+.main_section {
+  background-color: #eceaf8;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+}
+
+/* utility classes  */
+
+.ml {
+  margin-left: 40px;
+}
+
+.li-bgc {
+  background-color: #6c55f9;
+
+}
+
+.li-bgc:hover {
+  background-color: #6c55f9;
+
+}
+
+.transcolor {
+  background-image: radial-gradient(circle, #b262f8 15%, #5439f8);
+  width: 100%;
+}
+
+.wid {
+  width: 60%;
+
+}
+
+.green {
+  background-color: #35bb78;
+
+}
+
+.green:hover {
+  background-color: #6eb390;
+
+}
+
+.p_color {
+  color: rgb(136, 130, 130);
+  font-size: 20px;
+}
+
+/* our services section building logo of the website  */
+.logo_building {
+  width: 50px;
+  height: 50px;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  color: #6c55f9;
+  font-size: 25px;
+  padding: 13px 13px 13px 15px;
+  border-radius: 50%;
+  box-shadow: 2px 1px 13px -5px rgb(0 0 0 / 75%);
+}
+
+
+/* 2nd price section  background fixed color */
+
+/* hover font color for color */
+.font_color {
+  color: rgb(191, 185, 185);
+}
+
+.font_color:hover {
+  color: rgb(191, 185, 185);
+}
+
+.hover_color:hover {
+  background-color: #6c55f9;
+}
+
+.hover_color:hover .permonth {
+  color: white;
+}
+
+.hover_color:hover .font_text_hover {
+  color: rgb(191, 185, 185);
+}
+
+
+
+
+
+
+
+
+/* footer background img and color  */
+#webfooter {
+  background: url("img/world_pattern.svg");
+
+  background-color: #2e2e2e;
+  color: rgb(207, 202, 202);
+
+
+}
+
+#webfooter a {
+  text-decoration: none;
+}
+
+#footerlogo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+#footerlogo li {
+  list-style: none;
+}
+
+#footerlogo i {
+  color: rgb(136, 130, 130);
+  padding: 13px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.hover_shadow:hover {
+  -webkit-box-shadow: 0px 0px 14px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px -2px rgba(0, 0, 0, 0.75);
+}
+
+.price_btnbg {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: rgb(136, 130, 130);
+  color: #fff;
+}
+
+.price_btnbg:hover {
+  font-size: 23px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #6c55f9;
+}
